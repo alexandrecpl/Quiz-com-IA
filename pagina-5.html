@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz 3D - Página 5</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="scene">
+      <section class="quiz-card">
+        <header class="header">
+          <span class="badge">Página 5 de 5</span>
+          <h1>Quiz de Desenvolvimento Web</h1>
+        </header>
+
+        <form id="quiz-form" class="quiz-body" data-page="5">
+          <div class="question">
+            <p>9. Qual estrutura de repetição é usada para executar um bloco enquanto a condição for verdadeira?</p>
+            <label class="option">
+              <input type="radio" name="q9" value="A" />
+              <span>while</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q9" value="B" />
+              <span>switch</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q9" value="C" />
+              <span>if</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q9" value="D" />
+              <span>else</span>
+            </label>
+          </div>
+
+          <div class="question">
+            <p>10. Qual é a função correta para criar um loop em JavaScript?</p>
+            <label class="option">
+              <input type="radio" name="q10" value="A" />
+              <span>forEach()</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q10" value="B" />
+              <span>return()</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q10" value="C" />
+              <span>for</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q10" value="D" />
+              <span>map()</span>
+            </label>
+          </div>
+
+          <div class="actions">
+            <button type="button" class="secondary-btn" id="prev-btn">Anterior</button>
+            <button type="button" class="primary-btn" id="next-btn">Ver resultado</button>
+          </div>
+
+          <div id="result-box" class="result-box" aria-live="polite">
+            <h2><span id="status">Resultado</span></h2>
+            <p id="result-text">Seu resultado aparecerá aqui.</p>
+          </div>
+
+          <div class="actions">
+            <button type="button" class="secondary-btn" id="restart-btn">Reiniciar quiz</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

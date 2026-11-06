@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz 3D - Página 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="scene">
+      <section class="quiz-card">
+        <header class="header">
+          <span class="badge">Página 1 de 5</span>
+          <h1>Quiz de Desenvolvimento Web</h1>
+        </header>
+
+        <form id="quiz-form" class="quiz-body" data-page="1">
+          <div class="question">
+            <p>1. Qual tag HTML é usada para criar um artigo principal e semântico?</p>
+            <label class="option">
+              <input type="radio" name="q1" value="A" />
+              <span>&lt;div&gt;</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q1" value="B" />
+              <span>&lt;article&gt;</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q1" value="C" />
+              <span>&lt;section&gt;</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q1" value="D" />
+              <span>&lt;main&gt;</span>
+            </label>
+          </div>
+
+          <div class="question">
+            <p>2. Qual propriedade CSS define o espaçamento interno de um elemento?</p>
+            <label class="option">
+              <input type="radio" name="q2" value="A" />
+              <span>margin</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q2" value="B" />
+              <span>padding</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q2" value="C" />
+              <span>border</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q2" value="D" />
+              <span>outline</span>
+            </label>
+          </div>
+
+          <div class="actions">
+            <button type="button" class="secondary-btn" id="prev-btn" disabled>Anterior</button>
+            <button type="button" class="primary-btn" id="next-btn">Próxima página</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz 3D - Página 3</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="scene">
+      <section class="quiz-card">
+        <header class="header">
+          <span class="badge">Página 3 de 5</span>
+          <h1>Quiz de Desenvolvimento Web</h1>
+        </header>
+
+        <form id="quiz-form" class="quiz-body" data-page="3">
+          <div class="question">
+            <p>5. Qual propriedade CSS transforma um elemento em um contêiner flexível?</p>
+            <label class="option">
+              <input type="radio" name="q5" value="A" />
+              <span>display: block;</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q5" value="B" />
+              <span>display: inline;</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q5" value="C" />
+              <span>display: flex;</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q5" value="D" />
+              <span>position: absolute;</span>
+            </label>
+          </div>
+
+          <div class="question">
+            <p>6. O que a operação === compara em JavaScript?</p>
+            <label class="option">
+              <input type="radio" name="q6" value="A" />
+              <span>Valor e tipo</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q6" value="B" />
+              <span>Somente valor</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q6" value="C" />
+              <span>Somente tipo</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q6" value="D" />
+              <span>Nome da variável</span>
+            </label>
+          </div>
+
+          <div class="actions">
+            <button type="button" class="secondary-btn" id="prev-btn">Anterior</button>
+            <button type="button" class="primary-btn" id="next-btn">Próxima página</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
